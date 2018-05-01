@@ -1,0 +1,8 @@
+SERV_HOST = 'localhost'
+SERV_PORT = 8888
+CONNECTIONS_COUNT = 2
+BUF_SIZE = 1024
+ENCODING = 'UTF-8'
+C_NAME = 'name'
+C_PASS = 'pass'
+TIMEOUT = 1
