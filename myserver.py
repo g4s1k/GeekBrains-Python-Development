@@ -6,6 +6,7 @@ import datetime
 from carnival import ServerStuffDealer as SSD
 import select
 import logging
+import logsettings
 import carnival
 
 

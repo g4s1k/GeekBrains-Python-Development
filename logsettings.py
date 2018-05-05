@@ -3,8 +3,8 @@ from logging import handlers
 
 
 #Format settings
-FORMAT = '%(asctime)s    %(modulename)s  --  %(levelname)s: %(message)s'
-debformatter = logging.Formatter('%(asctime)s    %(modulename)s  --  %(levelname)s: %(funcName)s %(message)s')
+FORMAT = '%(asctime)s    %(module)s  --  %(levelname)s: %(message)s'
+debformatter = logging.Formatter('%(asctime)s    %(module)s  --  %(levelname)s: %(funcName)s %(message)s')
 
 #Basic config settings
 logging.basicConfig(format=FORMAT, level=logging.DEBUG)
@@ -24,7 +24,9 @@ debclientfile.setFormatter(debformatter)
 debservfile.setFormatter(debformatter)
 
 #Adding handlers to logger objects
+deblogger.propagate = False
 deblogger.addHandler(debclientfile)
 deblogger.addHandler(debservfile)
 errlogger.addHandler(errfile)
+
 

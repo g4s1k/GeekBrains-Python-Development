@@ -4,6 +4,7 @@ import jimprotocol as jim
 import datetime
 from carnival import ClientStuffDealer as CSD
 import logging
+import logsettings
 import carnival
 
 

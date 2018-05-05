@@ -1,0 +1,27 @@
+Error occured
+Traceback (most recent call last):
+  File "C:/Users/gamma/Documents/GitHub/GeekBrains-Python-Development/myclient.py", line 81, in send_data
+    self._c_socket.send(data)
+OSError: [WinError 10038] —делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом
+Error occured
+Traceback (most recent call last):
+  File "C:/Users/gamma/Documents/GitHub/GeekBrains-Python-Development/myclient.py", line 25, in read_data
+    data = self._c_socket.recv(settings.BUF_SIZE)
+OSError: [WinError 10038] —делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом
+Error occured
+Traceback (most recent call last):
+  File "C:/Users/gamma/Documents/GitHub/GeekBrains-Python-Development/myclient.py", line 50, in factory
+    if recieved_pack.code == 200:
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\jimprotocol.py", line 128, in code
+    code = self._pack.get('code')
+AttributeError: 'bytes' object has no attribute 'get'
+Error occured
+Traceback (most recent call last):
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 74, in new_shop
+    message = self._buf.pack['body']['message']
+TypeError: byte indices must be integers or slices, not str
+Error occured
+Traceback (most recent call last):
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 58, in new_shop
+    message = self._buf.pack['body']['message']
+TypeError: byte indices must be integers or slices, not str
