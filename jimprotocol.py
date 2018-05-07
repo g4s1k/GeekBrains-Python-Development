@@ -2,9 +2,9 @@
 
 import json
 import mycssettings as settings
-# from contman import DictPackChecker as DPC
-# from contman import JsonBytesChecker as JBC
+from contman import PackChecker
 import logging
+import logsettings
 import carnival
 import zlib
 
@@ -26,40 +26,27 @@ class JimPocket:
 
     @carnival.log
     def serialise(self):
-        try:
+        wrap = [self._pack]
+        with PackChecker(wrap) as wrap_copy:
+            data_copy = wrap_copy[0]
             if (self._type == 'client') & ('code' in self._pack.keys()):
-                self._pack.pop('code')
-            buf_str = json.dumps(self._pack)
+                data_copy.pop('code')
+            buf_str = json.dumps(data_copy)
             buf_str = buf_str.encode(settings.ENCODING)
-            self._pack = zlib.compress(buf_str)
-        except:
-            errlog.exception('Error occured')
-            raise
-        # with DPC(self._pack) as temp:
-        #     if (self._type == 'client') & ('code' in self._pack.keys()):
-        #         temp.buf.pop('code')
-        #     print('We are IN')
-        #     buf_str = json.dumps(temp.buf)
-        #     print(buf_str)
-        #     temp.buf = buf_str.encode(settings.ENCODING)
-        #     print(temp.buf)
-        #     print('code done!!!!!!!!!')
-        # print(self._pack)
+            wrap_copy[0] = zlib.compress(buf_str)
+        self._pack = wrap[0]
         return self._pack
 
     @carnival.log
     def deserialise(self):
-        try:
-            buf_str = zlib.decompress(self._pack)
+        wrap = [self._pack]
+        with PackChecker(wrap) as wrap_copy:
+            data_copy = wrap_copy[0]
+            buf_str = zlib.decompress(data_copy)
             buf_str = buf_str.decode(settings.ENCODING)
-            self._pack = json.loads(buf_str)
-        except:
-            errlog.exception('Error occured')
-            raise
-        # with JBC(self._pack) as temp:
-        #     buf_str = temp.decode(settings.ENCODING)
-        #     temp = json.loads(buf_str)
-        # return self._pack
+            wrap_copy[0] = json.loads(buf_str)
+        self._pack = wrap[0]
+        return self._pack
 
     @property
     def pack(self):

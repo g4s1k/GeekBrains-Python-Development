@@ -25,3 +25,82 @@ Traceback (most recent call last):
   File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 58, in new_shop
     message = self._buf.pack['body']['message']
 TypeError: byte indices must be integers or slices, not str
+Error occured
+Traceback (most recent call last):
+  File "C:/Users/gamma/Documents/GitHub/GeekBrains-Python-Development/myclient.py", line 79, in send_data
+    self._buf.serialise()
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 12, in wrap
+    func(*args, **kwargs)
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\jimprotocol.py", line 46, in serialise
+    print('code done!!!!!!!!!')
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\contman.py", line 13, in __exit__
+    self.pack.update = self.buf
+AttributeError: 'dict' object attribute 'update' is read-only
+Error occured
+Traceback (most recent call last):
+  File "C:/Users/gamma/Documents/GitHub/GeekBrains-Python-Development/myclient.py", line 79, in send_data
+    self._buf.serialise()
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 12, in wrap
+    func(*args, **kwargs)
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\jimprotocol.py", line 46, in serialise
+    print('code done!!!!!!!!!')
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\contman.py", line 13, in __exit__
+    self.pack.update(self.buf)
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+Connection error
+Connection error
+Error occured
+Traceback (most recent call last):
+  File "C:/Users/gamma/Documents/GitHub/GeekBrains-Python-Development/myclient.py", line 81, in send_data
+    self._c_socket.send(data)
+TypeError: a bytes-like object is required, not 'list'
+Connection error
+Error occured
+Traceback (most recent call last):
+  File "C:/Users/gamma/Documents/GitHub/GeekBrains-Python-Development/myserver.py", line 108, in start
+    self.factory(current_req, client, wlist)
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 12, in wrap
+    func(*args, **kwargs)
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 95, in new_shop
+    if pack.action == 'disconnect':
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\jimprotocol.py", line 62, in action
+    action = self._pack.get('action')
+AttributeError: 'list' object has no attribute 'get'
+Error occured
+Traceback (most recent call last):
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 74, in new_shop
+    message = self._buf.pack['body']['message']
+KeyError: 'message'
+Error occured
+Traceback (most recent call last):
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 58, in new_shop
+    message = self._buf.pack['body']['message']
+KeyError: 'message'
+Error occured
+Traceback (most recent call last):
+  File "C:/Users/gamma/Documents/GitHub/GeekBrains-Python-Development/myclient.py", line 81, in send_data
+    self._c_socket.send(data)
+OSError: [WinError 10038] —делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом
+Error occured
+Traceback (most recent call last):
+  File "C:/Users/gamma/Documents/GitHub/GeekBrains-Python-Development/myclient.py", line 25, in read_data
+    data = self._c_socket.recv(settings.BUF_SIZE)
+OSError: [WinError 10038] —делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом
+Error occured
+Traceback (most recent call last):
+  File "C:/Users/gamma/Documents/GitHub/GeekBrains-Python-Development/myclient.py", line 50, in factory
+    if recieved_pack.code == 200:
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\jimprotocol.py", line 115, in code
+    code = self._pack.get('code')
+AttributeError: 'bytes' object has no attribute 'get'
+Error occured
+Traceback (most recent call last):
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 74, in new_shop
+    message = self._buf.pack['body']['message']
+TypeError: byte indices must be integers or slices, not str
+Error occured
+Traceback (most recent call last):
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 58, in new_shop
+    message = self._buf.pack['body']['message']
+TypeError: byte indices must be integers or slices, not str
+Connection error
