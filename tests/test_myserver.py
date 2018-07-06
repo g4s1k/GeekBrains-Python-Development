@@ -1,5 +1,5 @@
 import pytest
-from myserver import MyServer
+from Server.myserver import MyServer
 import socket
 from jimprotocol import JimPocket
 

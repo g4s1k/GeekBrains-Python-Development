@@ -1,13 +1,11 @@
 import socket
-import mycssettings as settings
+import netsettings as settings
 import collections as col
 import jimprotocol as jim
-import datetime
-from carnival import ServerStuffDealer as SSD
+from eventhandlers import EvHandlers
 import select
 import logging
-import logsettings
-import carnival
+import datastore as ds
 
 
 deblog = logging.getLogger('deblogger')
@@ -24,19 +22,19 @@ class MyServer():
         self._l_socket.settimeout(settings.TIMEOUT)
         self._buf = jim.JimPocket('server')
         self._stop = False
+        self._session = ds.Session()
 
-    @carnival.log
     def accept_connection(self):
         try:
-            c_socket, c_addr =  self._l_socket.accept()
-            self._connections_list.update({c_socket: c_addr})
-            print(f'{c_addr} connected. \n Waiting for incoming data:')
+            c_socket, c_adr =  self._l_socket.accept()
+            adr_id = ds.Adress.get_adr_id(self._session, c_adr)
+            ds.Journal.write(self._session, 'Connected', adr_id)
+            self._connections_list.update({c_socket: adr_id})
         except socket.timeout:
             pass
         except:
             errlog.exception('Error occured')
 
-    @carnival.log
     def read_data(self, client):
         try:
             data = client.recv(settings.BUF_SIZE)
@@ -47,8 +45,7 @@ class MyServer():
         except ConnectionResetError:
             errlog.error('Connection error')
             if client in self._connections_list:
-                print(f'{self._connections_list[client]} disconnected.')
-                self._connections_list.pop(client)
+                EvHandlers.dis(self, client)
         except:
             errlog.exception('Error occured')
 
@@ -59,35 +56,28 @@ class MyServer():
             sending_func(self, client, pack)
         return wrap
 
-    @carnival.log
     def send_data(self, client):
         try:
             pack = self._buf
             pack.serialise()
             data = pack.pack
-            client.send(data)
+            if client in self.wlist:
+                client.send(data)
         except (ConnectionResetError, BrokenPipeError) as err:
-            print(f'{self._connections_list[client]} disconnected.')
-            self._connections_list.pop(client)
-            errlog.error(f'Connection error: {err}')
+            errlog.error('Connection error')
+            if client in self._connections_list:
+                EvHandlers.dis(self, client)
         except:
             errlog.exception('Error occured')
 
-    @carnival.log
-    @SSD.dis_event_handler
-    @SSD.auth_event_handler
-    @SSD.message_event_handler
-    def factory(self, pack, client, wlist):
-        try:
-            if pack.action == 'connect':
-                self._buf.newpack(200, pack.action, {'time': datetime.datetime.now().strftime("%d-%m-%Y %H:%M")},
-                                  {'message': 'Connection accepted.'})
-                if client in wlist:
-                    self.send_data(client)
-        except:
-            errlog.exception('Error occured')
+    @EvHandlers.connect
+    @EvHandlers.registration
+    @EvHandlers.message
+    @EvHandlers.authorisation
+    @EvHandlers.disconnect
+    def request_handler(self, pack, client):
+        pass
 
-    @carnival.log
     def start(self):
         try:
             self._stop = False
@@ -99,13 +89,13 @@ class MyServer():
                 clients_list.update(self._connections_list)
                 clients = clients_list.keys()
                 if clients:
-                    rlist, wlist, xlist = select.select(clients, clients, [], 0)
+                    self.rlist, self.wlist, self.xlist = select.select(clients, clients, [], 0)
                 for client in clients_list:
-                    if client in rlist:
+                    if client in self.rlist:
                         self.read_data(client)
                     if self._requests_list:
                         current_req = self._requests_list.popleft()
-                        self.factory(current_req, client, wlist)
+                        self.request_handler(current_req, client)
                         #self.send_data(client)
                 #self.sentinel()
             print('Server stopped')
@@ -119,12 +109,9 @@ class MyServer():
     #     if '/stop' in tuple(body.values()):
     #         self.stop()
 
-    @carnival.log
     def stop(self):
         self._stop = True
 
-
-    @carnival.log
     def restart(self):
         self.stop()
         self.start()

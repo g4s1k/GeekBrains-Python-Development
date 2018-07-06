@@ -104,3 +104,39 @@ Traceback (most recent call last):
     message = self._buf.pack['body']['message']
 TypeError: byte indices must be integers or slices, not str
 Connection error
+Error occured
+Traceback (most recent call last):
+  File "C:/Users/gamma/Documents/GitHub/GeekBrains-Python-Development/myserver.py", line 108, in start
+    self.factory(current_req, client)
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 12, in wrap
+    func(*args, **kwargs)
+TypeError: new_shop() missing 1 required positional argument: 'wlist'
+Error occured
+Traceback (most recent call last):
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 74, in new_shop
+    message = self._buf.pack['body']['message']
+KeyError: 'message'
+Error occured
+Traceback (most recent call last):
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 58, in new_shop
+    message = self._buf.pack['body']['message']
+KeyError: 'message'
+Error occured
+Traceback (most recent call last):
+  File "C:/Users/gamma/Documents/GitHub/GeekBrains-Python-Development/myserver.py", line 108, in start
+    self.factory(current_req, client)
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 12, in wrap
+    func(*args, **kwargs)
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 106, in new_shop
+    factory(self, pack, client, wlist)
+NameError: name 'wlist' is not defined
+Error occured
+Traceback (most recent call last):
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 74, in new_shop
+    message = self._buf.pack['body']['message']
+KeyError: 'message'
+Error occured
+Traceback (most recent call last):
+  File "C:\Users\gamma\Documents\GitHub\GeekBrains-Python-Development\carnival.py", line 58, in new_shop
+    message = self._buf.pack['body']['message']
+KeyError: 'message'

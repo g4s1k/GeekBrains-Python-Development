@@ -1,6 +1,4 @@
 import logging
-import logsettings
-
 
 deblog = logging.getLogger('deblogger')
 errlog = logging.getLogger('errlogger')

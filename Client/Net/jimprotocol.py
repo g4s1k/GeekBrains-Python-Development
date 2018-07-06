@@ -1,11 +1,9 @@
 #protocol description
 
 import json
-import mycssettings as settings
-from contman import PackChecker
+from . import mycssettings as settings
+from .contman import PackChecker
 import logging
-import logsettings
-import carnival
 import zlib
 
 
@@ -24,7 +22,6 @@ class JimPocket:
             print('Invalid pocket type')
             raise TypeError
 
-    @carnival.log
     def serialise(self):
         wrap = [self._pack]
         with PackChecker(wrap) as wrap_copy:
@@ -37,7 +34,6 @@ class JimPocket:
         self._pack = wrap[0]
         return self._pack
 
-    @carnival.log
     def deserialise(self):
         wrap = [self._pack]
         with PackChecker(wrap) as wrap_copy:
@@ -53,7 +49,6 @@ class JimPocket:
         pack = self._pack
         return pack
 
-    @carnival.log
     def pack_it(self, data):
         self._pack = data
 
@@ -84,10 +79,8 @@ class JimPocket:
     @property
     def body(self):
         body = self._pack.get('body')
-        for k, v in body.items():
-            yield k, v
+        return body
 
-    @carnival.log
     def add_command(self, newcommand = {}):
         self._pack['body'].update(newcommand)
 
@@ -98,7 +91,6 @@ class JimPocket:
         else:
             return False
 
-    @carnival.log
     def add_message(self, message = ''):
         if 'message' not in self._pack['body'].keys():
             self._pack['body'].update({'message': message})
@@ -124,7 +116,6 @@ class JimPocket:
         else:
             self._pack.update({'code': code})
 
-    @carnival.log
     def show_pack(self):
         buf_str = ''
         for item in self._pack:
@@ -136,7 +127,6 @@ class JimPocket:
                     buf_str = '\n'.join([buf_str, f'      {subitem}: {self._pack[item][subitem]}'])
         print(buf_str)
 
-    @carnival.log
     def newpack(self, code = 0, action = '', headers = {}, body = {}):
         self._pack = {'code': code, "action": action, "headers": headers, "body": body}
         if self._type == 'client':

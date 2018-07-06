@@ -26492,3 +26492,277 @@ cket object at 0x05B36DD0>, <socket.socket fd=636, family=AddressFamily.AF_INET,
 2018-05-07 17:22:24,557    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x05B36D10>,), kwargs: {}
 2018-05-07 17:22:24,557    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x05B36D10>, <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 62633)>), kwargs: {}
 2018-05-07 17:22:24,557    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x05B36D10>, <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 62633)>), kwargs: {}
+2018-05-07 20:40:38,928    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:38,928    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:39,943    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:39,943    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:40,958    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:40,958    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:41,973    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:41,973    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:42,988    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:42,988    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:44,004    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:44,004    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:45,025    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:45,025    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:46,041    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:46,041    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:47,056    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:47,056    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:47,556    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05745DB0>, 0, 'connect', {'time': '07-05-2018 20:40'}, {'command': '/connect'}), kwargs: {}
+2018-05-07 20:40:47,556    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05745DB0>, 0, 'connect', {'time': '07-05-2018 20:40'}, {'command': '/connect'}), kwargs: {}
+2018-05-07 20:40:47,556    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:47,556    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:47,556    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05745D70>, '/connect'), kwargs: {}
+2018-05-07 20:40:47,556    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05745D70>, '/connect'), kwargs: {}
+2018-05-07 20:40:47,556    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05745D70>,), kwargs: {}
+2018-05-07 20:40:47,556    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05745D70>,), kwargs: {}
+2018-05-07 20:40:47,556    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05745DB0>,), kwargs: {}
+2018-05-07 20:40:47,556    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05745DB0>,), kwargs: {}
+2018-05-07 20:40:47,556    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05745D70>,), kwargs: {}
+2018-05-07 20:40:47,556    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05745D70>,), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x0547BA10>, b'x\x9c\xabVJL.\xc9\xcc\xcfS\xb2RPJ\xce\xcf\xcbKM.Q\xd2QP\xcaHMLI-*\x06\x8aV+\x95d\xe6\xa6\x82\xa4\r\xccu\rLu\x8d\x0c\x0c-\x14\x8c\x0c\xacL\x0c\x94j\x81\n\x93\xf2S*\xc1\xaa\x92\xf3ss\x13\xf3R@\n\xf5a\x06\xd5\xd6\x02\x00Bu\x1c\r'), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x0547BA10>, b'x\x9c\xabVJL.\xc9\xcc\xcfS\xb2RPJ\xce\xcf\xcbKM.Q\xd2QP\xcaHMLI-*\x06\x8aV+\x95d\xe6\xa6\x82\xa4\r\xccu\rLu\x8d\x0c\x0c-\x14\x8c\x0c\xacL\x0c\x94j\x81\n\x93\xf2S*\xc1\xaa\x92\xf3ss\x13\xf3R@\n\xf5a\x06\xd5\xd6\x02\x00Bu\x1c\r'), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x0547BA10>,), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x0547BA10>,), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>, <socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64013)>), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>, <socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64013)>), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x0547B950>,), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05745DB0>,), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05745DB0>,), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05745D70>,), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05745D70>,), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05745D70>,), kwargs: {}
+2018-05-07 20:40:48,572    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05745D70>,), kwargs: {}
+2018-05-07 20:44:00,474    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:00,474    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:01,490    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:01,490    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:02,511    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:02,511    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:03,527    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:03,527    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:04,527    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:04,527    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:05,542    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:05,542    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:06,558    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:06,558    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:07,573    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:07,573    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:08,588    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:08,588    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:09,588    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:09,588    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:10,610    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:10,610    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:11,625    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:11,625    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:11,726    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05935DD0>, 0, 'connect', {'time': '07-05-2018 20:44'}, {'command': '/connect'}), kwargs: {}
+2018-05-07 20:44:11,726    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05935DD0>, 0, 'connect', {'time': '07-05-2018 20:44'}, {'command': '/connect'}), kwargs: {}
+2018-05-07 20:44:11,726    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:11,726    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05935D90>, '/connect'), kwargs: {}
+2018-05-07 20:44:11,726    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:11,726    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05935D90>, '/connect'), kwargs: {}
+2018-05-07 20:44:11,726    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05935D90>,), kwargs: {}
+2018-05-07 20:44:11,726    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05935D90>,), kwargs: {}
+2018-05-07 20:44:11,726    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05935DD0>,), kwargs: {}
+2018-05-07 20:44:11,726    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05935DD0>,), kwargs: {}
+2018-05-07 20:44:11,726    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05935D90>,), kwargs: {}
+2018-05-07 20:44:11,726    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05935D90>,), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x053DFA10>, b'x\x9c\xabVJL.\xc9\xcc\xcfS\xb2RPJ\xce\xcf\xcbKM.Q\xd2QP\xcaHMLI-*\x06\x8aV+\x95d\xe6\xa6\x82\xa4\r\xccu\rLu\x8d\x0c\x0c-\x14\x8c\x0c\xacLL\x94j\x81\n\x93\xf2S*\xc1\xaa\x92\xf3ss\x13\xf3R@\n\xf5a\x06\xd5\xd6\x02\x00C\t\x1c\x11'), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x053DFA10>, b'x\x9c\xabVJL.\xc9\xcc\xcfS\xb2RPJ\xce\xcf\xcbKM.Q\xd2QP\xcaHMLI-*\x06\x8aV+\x95d\xe6\xa6\x82\xa4\r\xccu\rLu\x8d\x0c\x0c-\x14\x8c\x0c\xacLL\x94j\x81\n\x93\xf2S*\xc1\xaa\x92\xf3ss\x13\xf3R@\n\xf5a\x06\xd5\xd6\x02\x00C\t\x1c\x11'), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x053DFA10>,), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x053DFA10>,), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>, <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64029)>), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>, <socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64029)>), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x053DF950>,), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05935DD0>,), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05935DD0>,), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05935D90>,), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05935D90>,), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05935D90>,), kwargs: {}
+2018-05-07 20:44:12,741    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05935D90>,), kwargs: {}
+2018-05-07 20:44:51,856    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:51,856    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:52,865    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:52,865    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:53,877    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:53,877    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:54,892    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:54,892    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:55,907    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:55,907    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:56,908    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:56,908    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:57,923    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:57,923    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:58,923    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:58,923    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:44:59,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>, 0, 'connect', {'time': '07-05-2018 20:44'}, {'command': '/connect'}), kwargs: {}
+2018-05-07 20:44:59,576    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+t', {'time': '07-05-2018 20:44'}, {'command': '/connect'}), kwargs: {}
+2018-05-07 20:44:59,576    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+wargs: {}
+2018-05-07 20:44:59,576    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>, '/connect'), kwargs: {}
+2018-05-07 20:44:59,576    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:44:59,576    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:44:59,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>,), kwargs: {}
+2018-05-07 20:44:59,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>,), kwargs: {}
+2018-05-07 20:44:59,576    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:44:59,576    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>, b'x\x9c\xabVJL.\xc9\xcc\xcfS\xb2RPJ\xce\xcf\xcbKM.Q\xd2QP\xcaHMLI-*\x06\x8aV+\x95d\xe6\xa6\x82\xa4\r\xccu\rLu\x8d\x0c\x0c-\x14\x8c\x0c\xacLL\x94j\x81\n\x93\xf2S*\xc1\xaa\x92\xf3ss\x13\xf3R@\n\xf5a\x06\xd5\xd6\x02\x00C\t\x1c\x11'), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>, b'x\x9c\xabVJL.\xc9\xcc\xcfS\xb2RPJ\xce\xcf\xcbKM.Q\xd2QP\xcaHMLI-*\x06\x8aV+\x95d\xe6\xa6\x82\xa4\r\xccu\rLu\x8d\x0c\x0c-\x14\x8c\x0c\xacLL\x94j\x81\n\x93\xf2S*\xc1\xaa\x92\xf3ss\x13\xf3R@\n\xf5a\x06\xd5\xd6\x02\x00C\t\x1c\x11'), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>,), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>,), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>, 200, 'connect', {'time': '07-05-2018 20:45'}, {'message': 'Connection accepted.'}), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>, 200, 'connect', {'time': '07-05-2018 20:45'}, {'message': 'Connection accepted.'}), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>,), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>,), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>, b'x\x9c%\x8cA\x0e\x80 \x0c\x04\xbfBz\x16S\x89F\xe3\xd5\x97`i\xd4\x83`\x84\x8b!\xfc\xdd\x8a\xc7\x9d\xccN\x06\n\x8eaV\x06\xb1Q`)\x1d\xc1\xcb\x14\xec=S\x02\x81;[\xc7w\x14\x9a!\x1d\xe7g\x03\x8e\x1a\x07m\xb0\x9b\xe49\xf7\x03\x14\x11\xd7\xe0\x9ej\x9d\x1c\xa3\xdd\xaa\xb8\xfc\x1d\xa9*K\xc4Wb\xd7B)/\x1a\xbe#\xad'), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>, b'x\x9c%\x8cA\x0e\x80 \x0c\x04\xbfBz\x16S\x89F\xe3\xd5\x97`i\xd4\x83`\x84\x8b!\xfc\xdd\x8a\xc7\x9d\xccN\x06\n\x8eaV\x06\xb1Q`)\x1d\xc1\xcb\x14\xec=S\x02\x81;[\xc7w\x14\x9a!\x1d\xe7g\x03\x8e\x1a\x07m\xb0\x9b\xe49\xf7\x03\x14\x11\xd7\xe0\x9ej\x9d\x1c\xa3\xdd\xaa\xb8\xfc\x1d\xa9*K\xc4Wb\xd7B)/\x1a\xbe#\xad'), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <jimprotocol.JimPocket object at 0x04D6F9D0>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <jimprotocol.JimPocket object at 0x04D6F9D0>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>,), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>,), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:00,576    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:01,577    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:01,577    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:02,592    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:02,592    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:03,592    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:03,592    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:04,607    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:04,607    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:05,623    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:05,623    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:06,644    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:06,644    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:07,659    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:07,659    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:08,675    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:08,675    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:08,823    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>, 0, 'message', {'time': '07-05-2018 20:45'}, {'message': 'hello'}), kwargs: {}
+2018-05-07 20:45:08,823    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>, 0, 'message', {'time': '07-05-2018 20:45'}, {'message': 'hello'}), kwargs: {}
+2018-05-07 20:45:08,823    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>, 'hello'), kwargs: {}
+2018-05-07 20:45:08,823    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>, 'hello'), kwargs: {}
+2018-05-07 20:45:08,823    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:08,823    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:08,824    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>,), kwargs: {}
+2018-05-07 20:45:08,824    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>,), kwargs: {}
+2018-05-07 20:45:08,824    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:08,824    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>, b'x\x9c\xabVJL.\xc9\xcc\xcfS\xb2RP\xcaM-.NLOU\xd2QP\xcaHMLI-*\x06\x8aV+\x95d\xe6\xa6\x82\xa4\r\xccu\rLu\x8d\x0c\x0c-\x14\x8c\x0c\xacLL\x95j\x81\n\x93\xf2S*\xc1\xaa`\x9a\xad@\x9asr\xf2\x95jk\x01\xf0\xc4\x1b\x0e'), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>, b'x\x9c\xabVJL.\xc9\xcc\xcfS\xb2RP\xcaM-.NLOU\xd2QP\xcaHMLI-*\x06\x8aV+\x95d\xe6\xa6\x82\xa4\r\xccu\rLu\x8d\x0c\x0c-\x14\x8c\x0c\xacLL\x95j\x81\n\x93\xf2S*\xc1\xaa`\x9a\xad@\x9asr\xf2\x95jk\x01\xf0\xc4\x1b\x0e'), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>,), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>,), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>, 200, 'message', {'time': '07-05-2018 20:45'}, {'message': 'Message received'}), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>, 200, 'message', {'time': '07-05-2018 20:45'}, {'message': 'Message received'}), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>,), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>,), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>, b'x\x9c5\x8bA\n\x80 \x14D\xaf"\xb3.\xf8ERt\x87\x0ea\xfa)\x17&h\x04\x11\xde\xbd_\xd1n\xe6\xf1\xde\x05\x1b\x1dcT-Q\xa5`\xec\xee\xe3&\x17\x81s6\x0bC\xe0\xca\xc6q\xcaB/\xec><6\xa8\xafI\xd7-5\x83\x94c\xa7QD\x9c\xa3;_\xeb\x8fE\x9c\xbe\xa9\x12[\xf6\x07;\x94r\x03\x8b\x8b"='), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <jimprotocol.JimPocket object at 0x04D6F9D0>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>, b'x\x9c5\x8bA\n\x80 \x14D\xaf"\xb3.\xf8ERt\x87\x0ea\xfa)\x17&h\x04\x11\xde\xbd_\xd1n\xe6\xf1\xde\x05\x1b\x1dcT-Q\xa5`\xec\xee\xe3&\x17\x81s6\x0bC\xe0\xca\xc6q\xcaB/\xec><6\xa8\xafI\xd7-5\x83\x94c\xa7QD\x9c\xa3;_\xeb\x8fE\x9c\xbe\xa9\x12[\xf6\x07;\x94r\x03\x8b\x8b"='), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <jimprotocol.JimPocket object at 0x04D6F9D0>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>,), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>,), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:09,690    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:10,690    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:10,690    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:11,706    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:11,706    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:12,706    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:12,706    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:13,721    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:13,721    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:14,743    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:14,743    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:15,759    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:15,759    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:16,774    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:16,774    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:17,790    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:17,790    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:18,806    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:18,806    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:19,821    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:19,821    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:20,843    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:20,843    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:21,859    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:21,859    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:22,874    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:22,874    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:23,890    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:23,890    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:24,905    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:24,905    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:25,920    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:25,920    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:26,942    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:26,942    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:27,173    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>, 0, 'disconnect', {'time': '07-05-2018 20:45'}, {'command': '/exit'}), kwargs: {}
+2018-05-07 20:45:27,173    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>, 0, 'disconnect', {'time': '07-05-2018 20:45'}, {'command': '/exit'}), kwargs: {}
+2018-05-07 20:45:27,173    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>, '/exit'), kwargs: {}
+2018-05-07 20:45:27,173    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>, '/exit'), kwargs: {}
+2018-05-07 20:45:27,173    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:27,173    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:27,173    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>,), kwargs: {}
+2018-05-07 20:45:27,173    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>,), kwargs: {}
+2018-05-07 20:45:27,173    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:27,173    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>, b'x\x9c\x1d\xcaA\n\x80 \x10\x00\xc0\xaf\xc8\x9e\x93L\x92\xc2\xdf\x98.\xb4\x07W\xc8=\x14\xe1\xdf\xd3\xce3/\x84(T\x18\xbc\x82D5\x16f\x8c\x02\x93\x82\x13C\xc2\xabvxA(\xe3\x18f\xd3\xc6ik\x96]Y\xe3W\x07\xad\xc7\xa3\xa4\xe7_\xb1\xe4\x1c8\x8d8\xe3M\x02\xad}a\xc5\x1c"'), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>, b'x\x9c\x1d\xcaA\n\x80 \x10\x00\xc0\xaf\xc8\x9e\x93L\x92\xc2\xdf\x98.\xb4\x07W\xc8=\x14\xe1\xdf\xd3\xce3/\x84(T\x18\xbc\x82D5\x16f\x8c\x02\x93\x82\x13C\xc2\xabvxA(\xe3\x18f\xd3\xc6ik\x96]Y\xe3W\x07\xad\xc7\xa3\xa4\xe7_\xb1\xe4\x1c8\x8d8\xe3M\x02\xad}a\xc5\x1c"'), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>, 200, 'disconnect', {'time': '07-05-2018 20:45'}, {'message': 'Done.'}), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>, 200, 'disconnect', {'time': '07-05-2018 20:45'}, {'message': 'Done.'}), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x04D6F9D0>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 64036)>), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>, b'x\x9c\x1d\x8b1\n\x800\x10\x04\xbf"[\xab\x9cbP\xac\xfdHL\x0eM\x91\x1c\x984"\xf9\xbb\xa7\xe5\xce\xce<p\xe2\x19k3\x12\xb5\r\xac+A\x92N\xf8\x90\x9d\xa4\xc4\xae@\xf9\xc9\xd6\xf3\x95\xf5xPB\xfc\x02\xd0\xdc\x91\xe9F\x1a\x16\x8d\xd7\xc9\xa0\xaa\xb8\x8b\xbf\x7f+r\xce\xf6\xf8\xc5M\x12\xf7\xa8\xf5\x05\xa3S\x1f\n'), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>, b'x\x9c\x1d\x8b1\n\x800\x10\x04\xbf"[\xab\x9cbP\xac\xfdHL\x0eM\x91\x1c\x984"\xf9\xbb\xa7\xe5\xce\xce<p\xe2\x19k3\x12\xb5\r\xac+A\x92N\xf8\x90\x9d\xa4\xc4\xae@\xf9\xc9\xd6\xf3\x95\xf5xPB\xfc\x02\xd0\xdc\x91\xe9F\x1a\x16\x8d\xd7\xc9\xa0\xaa\xb8\x8b\xbf\x7f+r\xce\xf6\xf8\xc5M\x12\xf7\xa8\xf5\x05\xa3S\x1f\n'), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <jimprotocol.JimPocket object at 0x04D6F9D0>, <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>, <jimprotocol.JimPocket object at 0x04D6F9D0>, <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<jimprotocol.JimPocket object at 0x05405D50>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:27,957    carnival  --  DEBUG: wrap args: (<__main__.MyClient object at 0x05405D10>,), kwargs: {}
+2018-05-07 20:45:28,973    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:28,973    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:29,988    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}
+2018-05-07 20:45:29,988    carnival  --  DEBUG: wrap args: (<__main__.MyServer object at 0x04D6F910>,), kwargs: {}

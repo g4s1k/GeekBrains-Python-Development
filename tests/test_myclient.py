@@ -1,5 +1,5 @@
 import pytest
-from myclient import MyClient
+from Client.Net.myclient import MyClient
 
 
 @pytest.fixture(params = ['some input', '/dis'], ids = ['some input', '/dis'])
